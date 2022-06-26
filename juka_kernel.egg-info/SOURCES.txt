@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+juka_kernel/__init__.py
+juka_kernel/__main__.py
+juka_kernel/install.py
+juka_kernel/kernel.py
+juka_kernel.egg-info/PKG-INFO
+juka_kernel.egg-info/SOURCES.txt
+juka_kernel.egg-info/dependency_links.txt
+juka_kernel.egg-info/requires.txt
+juka_kernel.egg-info/top_level.txt

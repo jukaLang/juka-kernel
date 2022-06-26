@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+/dist/
+/build/
+/MANIFEST
+.idea/*
+.ipynb_checkpoints/*
