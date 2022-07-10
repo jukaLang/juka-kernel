@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name='juka_kernel',
-    version='0.1',
+    version='0.2',
     packages=['juka_kernel'],
     description='Juka kernel for Jupyter',
     long_description=readme,

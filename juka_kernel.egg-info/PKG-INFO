@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: juka-kernel
-Version: 0.1
+Version: 0.2
 Summary: Juka kernel for Jupyter
 Home-page: https://github.com/jukaLang/juka_kernel
 Author: Juka
@@ -18,14 +18,13 @@ Installation
 ------------
 NOTE: PATH to Juka must be defined, make sure it is defined prior to installing the kernel
 
-To install ``juka_kernel``::
+To install ``juka_kernel`` from this repository::
 
     python -m juka_kernel.install
 
 Install from PyPi::
 
     pip install juka_kernel
-    python -m juka_kernel.install
 
 Using the Juka kernel
 ---------------------
@@ -39,3 +38,18 @@ Uninstall Juka Kernel
 Run the following command to uninstall ``juka_kernel``::
 
     jupyter kernelspec uninstall juka
+
+
+Compile Juka .whl (Development Only)
+------------------------------------
+
+Run the following command::
+
+    python -m build
+
+Upload to PyPi (Internal Use Only)
+-----------------------------------
+
+Run the following command::
+
+    python -m twine upload dist/*

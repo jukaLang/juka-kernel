@@ -5,9 +5,9 @@ import os
 
 class JukaKernel(Kernel):
     implementation = 'Juka'
-    implementation_version = '0.1'
+    implementation_version = '0.2'
     language = 'no-op'
-    language_version = '0.0.1'
+    language_version = '0.0.2'
     language_info = {
         'name': 'Any text',
         'mimetype': 'text/plain',
