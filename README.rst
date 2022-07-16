@@ -1,19 +1,19 @@
-juka_kernel
+juka-kernel
 ===========
 
-``juka_kernel`` allows Juka to be run in Jupyter notebook
+``juka-kernel`` allows Juka to be run in Jupyter notebook
 
 Installation
 ------------
 NOTE: PATH to Juka must be defined, make sure it is defined prior to installing the kernel
 
-To install ``juka_kernel`` from this repository::
+To install ``juka-kernel`` from this repository::
 
-    python -m juka_kernel.install
+    python -m juka-kernel.install
 
 Install from PyPi::
 
-    pip install juka_kernel
+    pip install juka-kernel
 
 Using the Juka kernel
 ---------------------
@@ -24,7 +24,7 @@ their command line arguments.
 
 Uninstall Juka Kernel
 ---------------------
-Run the following command to uninstall ``juka_kernel``::
+Run the following command to uninstall ``juka-kernel``::
 
     jupyter kernelspec uninstall juka
 

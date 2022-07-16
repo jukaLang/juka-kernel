@@ -4,14 +4,14 @@ with open('README.rst') as f:
     readme = f.read()
 
 setup(
-    name='juka_kernel',
+    name='juka-kernel',
     version='0.2',
-    packages=['juka_kernel'],
+    packages=['juka-kernel'],
     description='Juka kernel for Jupyter',
     long_description=readme,
     author='Juka',
     author_email='admin@jukalang.com',
-    url='https://github.com/jukaLang/juka_kernel',
+    url='https://github.com/jukaLang/juka-kernel',
     install_requires=[
         'jupyter_client', 'IPython', 'ipykernel'
     ],
